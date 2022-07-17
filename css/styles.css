@@ -129,7 +129,7 @@ h1, h2, h3, h4, p {
     background-color: var(--accent-bg-color);
 }
 
-.social-box__link--bgfooter {
+.social-box__link--footer {
     background: rgba(255, 255, 255, 0.1);
 }
 
