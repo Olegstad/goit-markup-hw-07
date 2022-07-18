@@ -73,7 +73,6 @@ h1, h2, h3, h4, p {
     padding-bottom: 94px;
 }
 
-
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -313,7 +312,7 @@ h1, h2, h3, h4, p {
     color: var(--title-text-color)
 }
 
-.lead-btn {
+/* .lead-btn {
     border-radius: 4px;
     padding: 10px 32px;
     font-family: inherit;
@@ -330,7 +329,7 @@ h1, h2, h3, h4, p {
 .lead-btn:hover,
 .lead-btn:focus {
     background: #188CE8;
-}
+} */
 
 /* Modal window */
 
@@ -504,7 +503,7 @@ h1, h2, h3, h4, p {
     color:var(--accent-text-color)
 }
 
-.modal-form-btn {
+/* .modal-form-btn {
     display: block;
     margin: 0 auto;
     padding: 10px 55px;
@@ -524,7 +523,7 @@ h1, h2, h3, h4, p {
 .modal-form-btn:hover,
 .modal-form-btn:focus {
     background-color: #188CE8;
-}
+} */
 
 /* Advantages section */
 
@@ -671,7 +670,7 @@ h1, h2, h3, h4, p {
 
 /* Filter by projects */
 
-.filter-btn {
+/* .filter-btn {
     border-radius: 4px;
     padding: 6px 22px;
     font-family: inherit;
@@ -690,7 +689,7 @@ h1, h2, h3, h4, p {
     color: var(--title-text-color);
     background: var(--accent-bg-color);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12)
-}
+} */
 
 .active {
     color: var(--title-text-color);
@@ -876,7 +875,7 @@ h1, h2, h3, h4, p {
     outline: transparent;
 }
 
-.subscribe-btn {
+/* .subscribe-btn {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -892,7 +891,7 @@ h1, h2, h3, h4, p {
     color: var(--title-text-color);
     border: none;
     cursor: pointer;
-}
+} */
 
 .footer-icon-subscribe {
     margin-left: 10px;

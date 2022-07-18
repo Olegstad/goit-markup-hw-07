@@ -16,6 +16,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/main.min.css" />
   </head>
   <body>
     <!-- Header -->
@@ -67,11 +68,19 @@
           <!-- Filter by projects -->
           <h1 class="visually-hidden">Примеры работ</h1>
           <ul class="list filter-list">
-            <li class="btn-item"><button class="filter-btn active" type="button">Все</button></li>
-            <li class="btn-item"><button class="filter-btn" type="button">Веб-сайты</button></li>
-            <li class="btn-item"><button class="filter-btn" type="button">Приложения</button></li>
-            <li class="btn-item"><button class="filter-btn" type="button">Дизайн</button></li>
-            <li class="btn-item"><button class="filter-btn" type="button">Маркетинг</button></li>
+            <li class="btn-item">
+              <button class="btn filter-btn active" type="button">Все</button>
+            </li>
+            <li class="btn-item">
+              <button class="btn filter-btn" type="button">Веб-сайты</button>
+            </li>
+            <li class="btn-item">
+              <button class="btn filter-btn" type="button">Приложения</button>
+            </li>
+            <li class="btn-item"><button class="btn filter-btn" type="button">Дизайн</button></li>
+            <li class="btn-item">
+              <button class="btn filter-btn" type="button">Маркетинг</button>
+            </li>
           </ul>
           <!-- Project examples -->
           <ul class="list projects-list">
@@ -383,7 +392,7 @@
           <h4 class="subscribe-title">Подпишитесь на рассылку</h4>
           <form class="subscribe-form">
             <input class="footer-email-input" type="email" placeholder="E-mail" />
-            <button class="subscribe-btn" type="submit">
+            <button class="btn subscribe-btn" type="submit">
               <span>Подписаться</span>
               <svg class="footer-icon-subscribe" width="24" height="24">
                 <use href="./images/icons.svg#icon-subscribe"></use>
