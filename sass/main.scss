@@ -1,3 +1,12 @@
-body {
-    background-color: #ffff;
-}
+// utils styles
+@import "./utils/vars";
+
+// base styles
+@import "./base/common";
+@import "./base/reset";
+
+// components styles
+@import "./components/buttons";
+
+// layout styles
+@import "./layouts/header";
