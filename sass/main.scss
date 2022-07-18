@@ -6,7 +6,10 @@
 @import "./base/reset";
 
 // components styles
+@import "./components/container";
+@import "./components/section";
 @import "./components/buttons";
+@import "./components/social";
 
 // layout styles
 @import "./layouts/header";

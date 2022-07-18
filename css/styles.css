@@ -60,18 +60,18 @@ h1, h2, h3, h4, p {
     overflow: hidden;
 } */
 
-.container {
+/* .container {
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
-}
+} */
 
-.section {
+/* .section {
     padding-top: 94px;
     padding-bottom: 94px;
-}
+} */
 
 .visually-hidden {
     position: absolute;
@@ -89,7 +89,7 @@ h1, h2, h3, h4, p {
 
 /* Social-box */
 
-.social-box {
+/* .social-box {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -131,7 +131,7 @@ h1, h2, h3, h4, p {
 
 .social-box__icon--color {
     fill: var(--title-text-color);
-}
+} */
 
 /* Team-card */
 

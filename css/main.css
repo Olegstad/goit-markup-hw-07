@@ -66,6 +66,19 @@ p {
   text-decoration: none;
 }
 
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .lead-btn {
   padding: 10px 32px;
   font-family: inherit;
@@ -151,4 +164,56 @@ p {
   color: var(--title-text-color);
   border: none;
   cursor: pointer;
+}
+
+.social-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.social-box__item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.social-box__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 44px;
+  height: 44px;
+  background-color: var(--main-bg-color);
+  border-radius: 50%;
+  -webkit-transition: background-color var(--anim-fast);
+  transition: background-color var(--anim-fast);
+}
+.social-box__link:hover .social-box__icon, .social-box__link:focus .social-box__icon {
+  fill: var(--title-text-color);
+}
+.social-box__link:hover, .social-box__link:focus {
+  background-color: var(--accent-bg-color);
+}
+.social-box__link--footer {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.social-box__icon {
+  fill: var(--social-icon-text);
+  -webkit-transition: fill var(--anim-fast);
+  transition: fill var(--anim-fast);
+}
+.social-box__icon--color {
+  fill: var(--title-text-color);
 }/*# sourceMappingURL=main.css.map */
