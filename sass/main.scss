@@ -1,5 +1,6 @@
 // utils styles
 @import "./utils/vars";
+@import "./utils/visually-hidden";
 
 // base styles
 @import "./base/common";
@@ -9,7 +10,9 @@
 @import "./components/container";
 @import "./components/section";
 @import "./components/buttons";
-@import "./components/social";
+@import "./components/socials";
+@import "./components/team-card";
+@import "./components/title";
 
 // layout styles
 @import "./layouts/header";

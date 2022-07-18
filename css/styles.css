@@ -73,7 +73,7 @@ h1, h2, h3, h4, p {
     padding-bottom: 94px;
 } */
 
-.visually-hidden {
+/* .visually-hidden {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -85,7 +85,7 @@ h1, h2, h3, h4, p {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
-}
+} */
 
 /* Social-box */
 
@@ -135,7 +135,7 @@ h1, h2, h3, h4, p {
 
 /* Team-card */
 
-.team-card {
+/* .team-card {
     background-color: var(--main-bg-color);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
@@ -160,22 +160,19 @@ h1, h2, h3, h4, p {
     line-height: 1.19;
     text-align: center;
     color: var(--secondary-text-color)
-}
+} */
 
 /* Header */
+/* 
 .header {
     background-color: var(--main-bg-color);
     border: 1px solid #ECECEC;
 }
 
-/* Container-header */
-
 .container-header {
     display: flex;
     align-items: center;
 }
-
-/* Header-nav */
 
 .header-nav {
     display: flex;
@@ -194,8 +191,6 @@ h1, h2, h3, h4, p {
 .logo-studio {
     color: var(--accent-text-color)
 }
-
-/* Header-list */
 
 .header-list {
     display: flex;
@@ -238,8 +233,6 @@ h1, h2, h3, h4, p {
     color: var(--accent-text-color)
 }
 
-/* Header contact */
-
 .header-link-contact {
     display: flex;
     align-items: center;
@@ -269,7 +262,7 @@ h1, h2, h3, h4, p {
 .contact-icon {
     margin-right: 10px;
     fill: currentColor;
-}
+} */
 
 /* Main */
 
@@ -601,12 +594,12 @@ h1, h2, h3, h4, p {
     background: rgba(47, 48, 58, 0.8);
 }
 
-.title {
+/* .title {
     margin-bottom: 50px;
     font-size: 36px;
     line-height: 1.17;
     color: var(--title-bg-color)
-}
+} */
 
 /* Team section */
 
