@@ -77,6 +77,11 @@
     cursor: pointer;
 }
 
+.subscribe-btn__icon {
+    margin-left: 10px;
+    fill: var(--main-bg-color);
+}
+
 .close-btn {
     position: absolute;
     display: flex;

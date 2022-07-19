@@ -188,7 +188,7 @@ h1, h2, h3, h4, p {
     color: var(--main-text-color)
 }
 
-.logo-studio {
+.logo--web {
     color: var(--accent-text-color)
 }
 
@@ -196,7 +196,7 @@ h1, h2, h3, h4, p {
     display: flex;
 }
 
-.header-list .header-list-item:not(:last-child) {
+.header-list .header-list__item:not(:last-child) {
     margin-right: 50px;
 }
 
@@ -572,11 +572,11 @@ h1, h2, h3, h4, p {
     margin-right: 30px;
 }
 
-.activity-box {
-    position: relative;
+.activity-item {
+position: relative;
 }
 
-.activity-desc {
+.activity-item__desc {
     position: absolute;
     bottom: 0;
     right: 0;
@@ -629,7 +629,7 @@ h1, h2, h3, h4, p {
     display: flex;
 }
 
-.clients-link {
+.clients-item__link {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -644,18 +644,18 @@ h1, h2, h3, h4, p {
     margin-right: 30px;
 }
 
-.clients-icon {
+.clients-item__icon {
     fill: var(--social-icon-text);
     transition: fill var(--anim-fast)
 }
 
-.clients-link:hover,
-.clients-link:focus {
+.clients-item__link:hover,
+.clients-item__link:focus {
     border: 1px solid var(--accent-text-color);
 }
 
-.clients-link:hover .clients-icon,
-.clients-link:focus .clients-icon {
+.clients-item__link:hover .clients-item__icon,
+.clients-item__link:focus .clients-item__icon {
     fill: var(--accent-text-color);
 }
 
@@ -721,12 +721,12 @@ h1, h2, h3, h4, p {
     margin-bottom: 0;
 }
 
-.projects-box {
+.projects-item__box {
     position: relative;
     overflow: hidden;
 }
 
-.projects-overlay {
+.projects-item__overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -741,7 +741,7 @@ h1, h2, h3, h4, p {
     transition: transform var(--anim-fast);
 }
 
-.projects-overlay-text {
+.projects-item__overlay-text {
     font-weight: 400;
     font-size: 18px;
     line-height: 1.55;
@@ -749,11 +749,11 @@ h1, h2, h3, h4, p {
     color: var(--title-text-color);
 }
 
-.project-tank {
+.projects-item__tank {
     padding: 20px 24px;
 }
 
-.projects-subtitle {
+.projects-item__subtitle {
     margin-bottom: 4px;
     font-size: 18px;
     line-height: 2;
@@ -761,24 +761,24 @@ h1, h2, h3, h4, p {
     color: var(--main-text-color);
 }
 
-.projects-desc {
+.projects-item__desc {
     font-size: 16px;
     line-height: 1.88;
     color: var(--secondary-text-color)
 }
 
-.projects-link {
+.projects-item__link {
     display: block;
     transition: box-shadow var(--anim-fast);
 }
 
- .projects-link:hover,
- .projects-link:focus {
+ .projects-item__link:hover,
+ .projects-item__link:focus {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.projects-link:hover .projects-overlay,
-.projects-link:focus .projects-overlay {
+.projects-item__link:hover .projects-item__overlay,
+.projects-item__link:focus .projects-item__overlay {
     transform: translateY(0);
 }
 
@@ -799,31 +799,26 @@ h1, h2, h3, h4, p {
 .footer-logo {
     display: block;
     margin-bottom: 20px;
-    font-family: var(--logo-font);
-    font-weight: 700;
-    font-style:normal;
-    font-size: 26px;
-    line-height: 1.19;
     color: var(--title-text-color);
 }
 
-.footer-contact-link {
+.footer-contact__link {
     font-style: normal;
     line-height: 1.71;
     color: rgba(255, 255, 255, 0.6);
     transition: color var(--anim-fast);
 }
 
-.footer-contact-link:hover,
-.footer-contact-link:focus {
+.footer-contact__link:hover,
+.footer-contact__link:focus {
     color: var(--accent-text-color)
 }
 
-.footer-contact-list .footer-item:not(:last-child) {
+.footer-contact .footer-contact__item:not(:last-child) {
     margin-bottom: 9px;
 }
 
-.footer-map {
+.footer-contact__map {
     font-style: normal;
     line-height: 1.71;
     color: var(--title-text-color)
@@ -838,11 +833,11 @@ h1, h2, h3, h4, p {
     color: var(--title-text-color);
 }
 
-.subscribe-form {
+.footer-subscribe__form {
     display: flex;
 }
 
-.subscribe-title {
+.footer-subscribe__title {
     margin-bottom: 20px;
     font-size: 14px;
     line-height: 1.14;
@@ -851,7 +846,7 @@ h1, h2, h3, h4, p {
     color: var(--title-text-color);
 }
 
-.footer-email-input {
+.footer-subscribe__input {
     display: flex;
     align-items: center;
     width: 358px;
@@ -886,7 +881,7 @@ h1, h2, h3, h4, p {
     cursor: pointer;
 } */
 
-.footer-icon-subscribe {
+/* .subscribe-btn__icon {
     margin-left: 10px;
     fill: var(--main-bg-color);
-}
+} */
