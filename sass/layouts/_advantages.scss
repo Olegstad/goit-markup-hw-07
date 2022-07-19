@@ -1,3 +1,7 @@
+.advantages {
+    @extend %section;
+}
+
 .advantages-list {
     display: flex;
 }

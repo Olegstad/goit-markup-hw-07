@@ -1,4 +1,5 @@
 .lead {
+    @extend %section;
     padding: 200px 0;
     background-color: var(--title-bg-color);
 }
