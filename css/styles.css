@@ -268,7 +268,7 @@ h1, h2, h3, h4, p {
 
 /* Lead banner */
 
-.lead {
+/* .lead {
     padding: 200px 0;
     background-color: var(--title-bg-color);
 }
@@ -277,7 +277,7 @@ h1, h2, h3, h4, p {
     text-align: center;
 }
 
-.overlay {
+.cover {
     max-width: 1600px;
     height: 600px;
     margin-left: auto;
@@ -303,7 +303,7 @@ h1, h2, h3, h4, p {
     text-align: center;
     text-transform: uppercase;
     color: var(--title-text-color)
-}
+} */
 
 /* .lead-btn {
     border-radius: 4px;
@@ -520,7 +520,7 @@ h1, h2, h3, h4, p {
 
 /* Advantages section */
 
-.advantages-list {
+/* .advantages-list {
     display: flex;
 }
 
@@ -552,11 +552,11 @@ h1, h2, h3, h4, p {
 .advantages-desc {
     line-height: 1.71;
     color: var(--secondary-text-color)
-}
+} */
 
 /* Activity section */
 
-.activity {
+/* .activity {
     padding-top: 0;
 }
 
@@ -592,7 +592,7 @@ position: relative;
     text-transform: uppercase;
     color: var(--title-text-color);
     background: rgba(47, 48, 58, 0.8);
-}
+} */
 
 /* .title {
     margin-bottom: 50px;
@@ -603,7 +603,7 @@ position: relative;
 
 /* Team section */
 
-.team {
+/* .team {
     background-color: var(--secondary-bg-color);
 }
 
@@ -644,11 +644,11 @@ position: relative;
     line-height: 1.19;
     text-align: center;
     color: var(--secondary-text-color)
-}
+} */
 
 /* Clients section */
 
-.container-clients {
+/* .container-clients {
     text-align: center;
 }
 
@@ -684,7 +684,7 @@ position: relative;
 .clients-item__link:hover .clients-item__icon,
 .clients-item__link:focus .clients-item__icon {
     fill: var(--accent-text-color);
-}
+} */
 
 /* Portfolio section */
 
@@ -716,7 +716,7 @@ position: relative;
     background-color: var(--accent-bg-color)
 } */
 
-.filter-list {
+/* .filter-list {
     margin-bottom: 50px;
     display: flex;
     justify-content: center;
@@ -724,10 +724,10 @@ position: relative;
 
 .filter-list .btn-item:not(:last-child) {
     margin-right: 8px;
-}
+} */
 
 /* Project examples */
-
+/* 
 .projects-list {
     display: flex;
     flex-wrap: wrap;
@@ -751,29 +751,6 @@ position: relative;
 .projects-item__box {
     position: relative;
     overflow: hidden;
-}
-
-.projects-item__overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    transform: translateY(100%);
-    padding: 63px 24px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
-    background: rgba(33, 150, 243, 0.9);
-    transition: transform var(--anim-fast);
-}
-
-.projects-item__overlay-text {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 1.55;
-    letter-spacing: 0.03em;
-    color: var(--title-text-color);
 }
 
 .projects-item__tank {
@@ -802,15 +779,38 @@ position: relative;
  .projects-item__link:hover,
  .projects-item__link:focus {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+} */
+
+/* .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateY(100%);
+    padding: 63px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background: rgba(33, 150, 243, 0.9);
+    transition: transform var(--anim-fast);
 }
 
-.projects-item__link:hover .projects-item__overlay,
-.projects-item__link:focus .projects-item__overlay {
+.projects-item__link:hover .overlay,
+.projects-item__link:focus .overlay {
     transform: translateY(0);
 }
 
-/* Footer */
+.overlay__text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.55;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+} */
 
+/* Footer */
+/* 
 .footer {
     padding-top: 60px;
     padding-bottom: 60px;
@@ -888,7 +888,7 @@ position: relative;
     letter-spacing: 0.03em;
     color: var(--title-text-color);
     outline: transparent;
-}
+} */
 
 /* .subscribe-btn {
     display: flex;
