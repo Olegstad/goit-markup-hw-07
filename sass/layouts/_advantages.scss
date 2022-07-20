@@ -4,11 +4,13 @@
 
 .advantages-list {
     display: flex;
+
+    & .advantages-item:not(:last-child) {
+        margin-right: 30px;
+    }
 }
 
-.advantages-list .advantages-item:not(:last-child) {
-    margin-right: 30px;
-}
+
 
 .advantages-item {
     width: 270px;
